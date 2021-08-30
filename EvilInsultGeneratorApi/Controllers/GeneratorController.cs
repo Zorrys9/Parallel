@@ -85,7 +85,7 @@ namespace EvilInsultGeneratorApi.Controllers
                 var result = await jok;
                 foreach (var res in result.JokeBody)
                 {
-                    viewModel.Jokes.Add(res);
+                   viewModel.Jokes.Add(res);
                 }
             }
 
